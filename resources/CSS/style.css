@@ -1,0 +1,98 @@
+body{
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin:20px;
+
+}
+
+header{
+  display: flex;
+  height: 79px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  align-items:center;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+}
+
+.logo{
+ display: flex;
+ flex-grow: 2;
+
+ margin-left: 10px;
+ width: 70%;
+ }
+
+
+nav span {
+text-decoration: underline;
+padding: 15px;
+}
+
+a{
+  color: seashell;
+}
+
+
+.concept-content{
+background-color: black;
+width: 100%;
+}
+
+.concept{
+ display: flex;
+ align-items: center;
+ height: 700px;
+ background-image: url("../image/img-mission-background.jpg");
+}
+
+.tea-section {
+  width: 1000px;
+  margin: 100px auto;
+}
+.tea-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tea img {
+  width: 300px;
+  height: 200px;
+}
+.tea h4 {
+  margin-top: 10px;
+}
+.tea {
+  margin: 15px;
+}
+
+
+.location-section{
+ display: flex;
+ flex-direction: column;
+ justify-content:center;
+ height: 500px;
+ background-image: url("../image/img-locations-background.jpg");
+}
+
+.location-list{
+display: flex;
+justify-content: center;
+}
+
+.adress{
+  background-color: black;
+  opacity: 1;
+  margin: 15px 40px 40px 40px;
+  width: 300px;
+}
+
+.copyright{
+text-align: left;
+margin:20px;
+}
